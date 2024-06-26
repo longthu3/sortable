@@ -1,0 +1,20 @@
+.drag-area {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  min-height: 50px;
+  width: 300px;
+  margin: 20px;
+}
+
+.drag-area li {
+  margin: 8px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+}
+
+.drag-area li.dragging {
+  opacity: 0.5;
+  background-color: #999;
+}
